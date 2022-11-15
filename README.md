@@ -37,7 +37,7 @@ The default configuration is set as follows. Feel free to change this as require
 
 ### Customization
 
-You can also build a custom image, i.e. if you want to use another Kali Desktop, update `KALI_DESKTOP` in the `Dockerfile`. 
+You can also build a custom image, i.e. if you want to use another Kali Desktop (mate, gnome, kde), update `KALI_DESKTOP` in the `Dockerfile`. 
 
 Also, you can specify different Kali Linux metapackages, i.e. `core`, `default`, `light`, `large`, `everything`, or `top10` by updating the `KALI_METAPACKAGE` argument in the `Dockerfile`.
 
