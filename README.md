@@ -2,15 +2,24 @@
 
 Kali Linux docker container running with a full desktop, VNC, and noVNC so that you can access the desktop via your browser.
 
-### Build
-Build the container with `make build`.
+## Build the Container
 
-### Run
-Run the container with `make run`.
+`make build`
 
-Access in your browser on [https://localhost:9020/vnc.html](https://localhost:9020/vnc.html)
+## Run the Container
 
-### Config
+`make run`
+
+## Access GUI via Web Browser
+
+[https://localhost:9020/vnc.html](https://localhost:9020/vnc.html)
+
+## Access GUI via VNC Application
+1) Download [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
+2) Install the application
+3) Connect with `localhost:5901`
+
+## Config
 
 The default configuration is set as follows. Feel free to change this as required.
 
@@ -35,7 +44,7 @@ The default configuration is set as follows. Feel free to change this as require
   - You can optionally mount your self-signed certificate and key to the container.
   - Use `openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout key.pem` to create a new certificate and key.
 
-### Customization
+## Customization
 
 You can also build a custom image, i.e. if you want to use another Kali Desktop `(mate, gnome, kde)`, update the `KALI_DESKTOP` argument in the `Dockerfile`. 
 
