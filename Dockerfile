@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling:latest
-LABEL description="Kali Linux with XFCE Desktop via VNC and noVNC in browser."
+LABEL description="Kali Linux Docker Container with Desktop (via Browser)"
 
 ARG KALI_METAPACKAGE=core
 ENV DEBIAN_FRONTEND noninteractive
