@@ -14,10 +14,14 @@ RUN apt-get -y install tightvncserver dbus dbus-x11 novnc net-tools
 
 ENV USER root
 
+RUN apt-get remove xfce4-power-manager -y
+RUN apt-get clean
+RUN apt-get autoremove -y
+
 ENV VNCEXPOSE 0
 ENV VNCPORT 5900
 ENV VNCPWD changeme
-ENV VNCDISPLAY 2160x1440
+ENV VNCDISPLAY 2560x1440
 ENV VNCDEPTH 16
 
 ENV NOVNCPORT 8080
