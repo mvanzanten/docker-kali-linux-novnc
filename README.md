@@ -3,10 +3,10 @@
 Kali Linux docker container running with a full desktop, VNC, and noVNC so that you can access the desktop via your browser.
 
 ### Build
-Run the command `make build` to create the container.
+Build the container with `make build`.
 
 ### Run
-Run the command `make run` to start the container.
+Run the container with `make run`.
 
 Access in your browser on `https://localhost:9020/vnc.html`
 
