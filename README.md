@@ -20,7 +20,7 @@ Kali Linux docker container running with a full desktop, VNC, and noVNC so that 
 3) Install the application
 4) Connect with `localhost:9021`
 
-## Config
+## Configuration
 
 The default configuration is set as follows. Feel free to change this as required.
 
