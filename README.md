@@ -17,7 +17,7 @@ Kali Linux docker container running with a full desktop, VNC, and noVNC so that 
 [http://localhost:8080](http://localhost:8080)
 
 ## Access GUI via VNC Application
-1) Ensure `VNCEXPOSE` is set to `1` in the Dockerfile before building
+1) Ensure `VNCEXPOSE` is set to `1` in the Dockerfile before you run `make build`
 2) Download [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 3) Install the application
 4) Connect with `localhost:5901`
