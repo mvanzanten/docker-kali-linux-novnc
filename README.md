@@ -23,7 +23,7 @@ The default configuration is set as follows. Feel free to change this as require
   - Note: If you change this port, you also need to change the port mapping with the `-p 9021:5900` parameter.
 - `-e VNCPWD=changeme`
   - Change the default password of the VNC server.
-- `-e VNCDISPLAY=2160x1440`
+- `-e VNCDISPLAY=2560x1440`
   - Change the default display resolution of the VNC connection.
 - `-e VNCDEPTH=16`
   - Change the default display depth of the VNC connection. Possible values are 8, 16, 24, and 32. Higher values mean better quality but more bandwidth requirements.
