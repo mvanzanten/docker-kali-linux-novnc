@@ -10,7 +10,6 @@ Run the command `make run` to start the container.
 
 Access in your browser on `https://localhost:9020/vnc.html`
 
-
 ### Config
 
 The default configuration is set as follows. Feel free to change this as required.
@@ -35,3 +34,11 @@ The default configuration is set as follows. Feel free to change this as require
   - By default, the container creates a new self-signed certificate for the noVNC connection at creation time.
   - You can optionally mount your self-signed certificate and key to the container.
   - Use `openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout key.pem` to create a new certificate and key.
+
+### Customization
+
+You can also build a custom image, i.e. if you want to use another Kali Desktop, update `KALI_DESKTOP` in the `Dockerfile`. 
+
+Also, you can specify different Kali Linux metapackages, i.e. `core`, `default`, `light`, `large`, `everything`, or `top10` by updating the `KALI_METAPACKAGE` argument in the `Dockerfile`.
+
+See [https://www.kali.org/news/major-metapackage-makeover/](https://www.kali.org/news/major-metapackage-makeover/) for more details and metapackages.

@@ -14,7 +14,7 @@ build: ## Build the container
 	docker build -t $(APP_NAME) .
 
 run: ## Run the container
-	docker run --rm -it -p 9020:8080 -p 9021:5900 $(APP_NAME)
+	docker run --rm -it --name $(APP_NAME) -p 9020:8080 -p 9021:5900 $(APP_NAME)
 
 stop: ## Stop the container
-	docker stop $(APP_NAME); docker rm $(APP_NAME)
+	docker stop $(APP_NAME)
