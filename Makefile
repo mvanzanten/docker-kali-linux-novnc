@@ -1,7 +1,8 @@
 APP_NAME=kali
 
-# This will output the help for each task
-.PHONY: help
+## ┌───────────────────────────────────────────────────────────────────┐
+## │                      Docker Kali Linux                            │
+## └───────────────────────────────────────────────────────────────────┘
 
 help: ## show this help
 # regex for general help
