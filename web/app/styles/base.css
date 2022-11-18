@@ -737,19 +737,19 @@
   }
   
   #noVNC_status.noVNC_status_normal {
-    background: rgba(128,128,128,0.9);
+    background: rgba(82, 125, 151, 0.9)
   }
   #noVNC_status.noVNC_status_normal::before {
     content: url("../images/info.svg") " ";
   }
   #noVNC_status.noVNC_status_error {
-    background: rgba(200,55,55,0.9);
+    background: rgba(255, 96, 96, 0.9);
   }
   #noVNC_status.noVNC_status_error::before {
     content: url("../images/error.svg") " ";
   }
   #noVNC_status.noVNC_status_warn {
-    background: rgba(180,180,30,0.9);
+    background: rgba(82, 125, 151, 0.9)
   }
   #noVNC_status.noVNC_status_warn::before {
     content: url("../images/warning.svg") " ";
