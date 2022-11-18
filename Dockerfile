@@ -25,6 +25,7 @@ ENV VNCPWD changeme
 ENV VNCDISPLAY 2560x1440
 ENV VNCDEPTH 16
 ENV NOVNCPORT 8080
+COPY ./novnc/ /usr/share/novnc
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
