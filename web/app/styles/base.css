@@ -774,7 +774,6 @@
   }
   #noVNC_connect_dlg .noVNC_logo {
     transition: 0.5s ease-in-out;
-    padding: 10px;
     margin-bottom: 10px;
   
     font-size: 80px;
@@ -799,11 +798,9 @@
     font-size: 20px;
   }
   #noVNC_connect_button div {
-    margin: 2px;
     padding: 5px 30px;
-    border: 2px solid rgb(0 0 0);
     border-radius: 5px;
-    background: linear-gradient(to top, rgb(78 78 78), rgb(70 72 74));
+    background: linear-gradient(to top, rgb(82 125 151), rgb(82 125 151));
     vertical-align: middle;
   }
   #noVNC_connect_button div:active {
@@ -811,7 +808,7 @@
     margin-top: 3px;
   }
   :root:not(.noVNC_touch) #noVNC_connect_button div:hover {
-    background: linear-gradient(to top, rgb(92, 92, 92), rgb(82, 84, 87));
+    background: linear-gradient(to top, rgb(96, 146, 177), rgb(98, 149, 180));
   }
   
   #noVNC_connect_button img {
@@ -911,13 +908,18 @@
   }
   
   .noVNC_logo {
-    color:rgb(0 64 147);
+    color: rgb(73 126 169);
     font-family: 'Orbitron', 'OrbitronTTF', sans-serif;
     line-height:90%;
     text-shadow: 2px 2px #000000;
+    width
   }
   .noVNC_logo span{
-    color:#007cc5;
+    color: #2c81b3;
+  }
+
+  .noVNC_logo img{
+    width: 300px;
   }
   
   #noVNC_bell {

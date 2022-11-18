@@ -2,7 +2,7 @@
 
 Kali Linux docker container running with a full desktop, VNC, and noVNC so that you can access the desktop via your browser.
 
-![docker](./logo.png)
+![docker](./web/app/images/logo.png)
 
 ## Build the Container
 
