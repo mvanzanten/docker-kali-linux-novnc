@@ -54,7 +54,7 @@ input:not([type]), input[type=date], input[type=datetime-local], input[type=emai
   padding: 6px;
   border: 2px solid rgb(52 52 52);
   border-radius: 5px;
-  color: rgb(175, 175, 175);
+  color: rgb(199, 199, 199);
   background: linear-gradient(to top, rgb(50 50 50) 80%, rgb(52 52 52));
 }
 input[type=button], input[type=color], input[type=reset], input[type=submit], select {
@@ -66,7 +66,7 @@ input[type=button], input[type=color], input[type=reset], input[type=submit], se
   padding: 6px;
   border: 2px solid rgb(52 52 52);
   border-radius: 5px;
-  color: rgb(175, 175, 175);
+  color: rgb(199, 199, 199);
   background: linear-gradient(to top, rgb(50 50 50) 80%, rgb(52 52 52));
 }
 input[type=button], input[type=color], input[type=reset], input[type=submit] {
@@ -85,7 +85,7 @@ input[type=button]::-moz-focus-inner, input[type=color]::-moz-focus-inner, input
   border: none;
 }
 input:not([type]):disabled, input[type=button]:disabled, input[type=color]:disabled, input[type=date]:disabled, input[type=datetime-local]:disabled, input[type=email]:disabled, input[type=month]:disabled, input[type=number]:disabled, input[type=password]:disabled, input[type=reset]:disabled, input[type=search]:disabled, input[type=submit]:disabled, input[type=tel]:disabled, input[type=text]:disabled, input[type=time]:disabled, input[type=url]:disabled, input[type=week]:disabled, select:disabled, textarea:disabled {
-  color: rgb(128, 128, 128);
+  color: rgb(199, 199, 199);
   background: rgb(240, 240, 240);
 }
 input[type=button]:active, input[type=color]:active, input[type=reset]:active, input[type=submit]:active, select:active {
@@ -179,6 +179,9 @@ input[type=button]:active, input[type=color]:active, input[type=reset]:active, i
   border: 1px solid rgba(0, 0, 0, 0.5);
   background: rgba(0, 0, 0, 0.2);
   overflow: auto;
+}
+#noVNC_password_input::placeholder {
+  color: rgb(190, 190, 190);
 }
 /* ---------------------------------------- * Control Bar * ---------------------------------------- */
 #noVNC_control_bar_anchor {
