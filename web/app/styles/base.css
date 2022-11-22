@@ -202,6 +202,7 @@ input[type=button]:active, input[type=color]:active, input[type=reset]:active, i
   transition: 0.5s ease-in-out;
   background-color: rgb(16 16 16);
   border-radius: 0 5px 5px 0;
+  opacity: 0.9;
 }
 #noVNC_control_bar.noVNC_open {
   left: 0;
@@ -393,7 +394,7 @@ input[type=button]:active, input[type=color]:active, input[type=reset]:active, i
   padding: 0px 0px 2px 0px;
 }
 .noVNC_panel .noVNC_heading {
-  background-color: black;
+  background-color: #4679cd;
   border-radius: 5px;
   padding: 5px;
  /* Compensate for padding in image */
@@ -455,6 +456,7 @@ input[type=button]:active, input[type=color]:active, input[type=reset]:active, i
   border: none;
   padding: 0 10px;
   border-radius: 5px;
+  opacity: 0.9;
 }
 /* Shutdown/Reboot */
 :root:not(.noVNC_connected) #noVNC_power_button {
@@ -476,8 +478,9 @@ input[type=button]:active, input[type=color]:active, input[type=reset]:active, i
  /* Full screen, minus padding and left and right margins */
   max-width: calc(100vw - 2*15px - 75px - 25px);
   color:white; 
-  background: black;
+  background: rgb(16 16 16);
   border-radius: 5px;
+  opacity: 0.9;
 }
 #noVNC_clipboard_text {
   width: 500px;
@@ -485,9 +488,10 @@ input[type=button]:active, input[type=color]:active, input[type=reset]:active, i
 }
 /* Settings */
 #noVNC_settings {
-  background: black;
+  background: rgb(16 16 16);
   border-radius: 5px;
   color:white; 
+  opacity: 0.9;
 }
 #noVNC_settings ul {
   list-style: none;
