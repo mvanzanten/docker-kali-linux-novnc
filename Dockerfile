@@ -1,7 +1,7 @@
 FROM kalilinux/kali-rolling:latest
 LABEL description="Kali Linux Docker Container with Desktop (via Browser)"
 
-ARG KALI_METAPACKAGE=top10
+ARG KALI_METAPACKAGE=core
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 RUN apt-get -y upgrade
