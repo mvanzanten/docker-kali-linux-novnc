@@ -5,7 +5,7 @@ ARG KALI_METAPACKAGE=top10
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 RUN apt-get -y upgrade
-RUN apt-get -y install kali-tools-${KALI_METAPACKAGE} || apt-get -y install kali-linux-${KALI_METAPACKAGE}
+RUN apt-get -y install kali-tools-${KALI_METAPACKAGE}
 RUN apt-get clean
 
 ARG KALI_DESKTOP=xfce
