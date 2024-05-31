@@ -3,7 +3,6 @@ LABEL description="Kali Linux Docker Container with Desktop (via Browser)"
 
 ARG KALI_METAPACKAGE=top10
 ENV DEBIAN_FRONTEND noninteractive
-RUN echo 'deb https://http.kali.org/kali kali-rolling main non-free contrib' > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN apt-get -y install kali-tools-${KALI_METAPACKAGE}
