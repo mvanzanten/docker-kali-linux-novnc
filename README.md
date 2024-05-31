@@ -1,7 +1,7 @@
 # Kali Linux Docker Container with Desktop (via Browser)
 ![example workflow](https://github.com/mvanzanten/docker-kali-linux-novnc/actions/workflows/build.yml/badge.svg)
 
-Docker image can be found here [uacmarine556/docker-kali-linux-novnc](https://hub.docker.com/r/uacmarine556/docker-kali-linux-novnc).
+Docker image can be found here [uacmarine556/kali-linux-novnc](https://hub.docker.com/r/uacmarine556/kali-linux-novnc).
 
 Kali Linux docker container running with a full desktop, VNC, and noVNC so that you can access the desktop via your browser.
 
