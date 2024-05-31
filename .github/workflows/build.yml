@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-kali-linux-novnc:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kali-linux-novnc:latest
