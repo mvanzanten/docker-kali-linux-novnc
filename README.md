@@ -22,7 +22,7 @@ Kali Linux docker container running with a full desktop, VNC, and noVNC so that 
 
 See `Configuration` below for password instructions.
 
-### (Alternative) VNC Application
+#### (Alternative) VNC Application
 1) Ensure `VNCEXPOSE` is set to `1` in the Dockerfile before you run `make build`
 2) Download [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
 3) Install the application
